@@ -57,7 +57,7 @@ jobs:
       - name: send telegram message
         uses: appleboy/telegram-action@master
         with:
-              to: "-1001730907007"
+              to: "1034562126"
               token: "5541471253:AAFGq-cwlYERC9nSYc68_94bWOH0Fx1KkVU"
               message: " "
               document: '${{ github.workspace }}/project_folder/${{ env.APP_NAME }}.zip'
